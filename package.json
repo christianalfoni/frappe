@@ -1,7 +1,7 @@
 {
   "name": "frappe-framework",
   "scripts": {
-    "build": "node esbuild",
+    "build": "node esbuild test",
     "production": "node esbuild --production",
     "watch": "node esbuild --watch",
     "snyk-protect": "snyk protect",
